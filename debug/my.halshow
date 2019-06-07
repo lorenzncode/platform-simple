@@ -1,0 +1,145 @@
+#Gecko Inputs;  
+#-------------
+#Gecko input 1/pin 1; DB 25 pin 10; 6i25 IO13
+pin+hm2_5i25.0.gpio.013.in
+
+#Gecko input 2/pin 2; DB 25 pin 11; 6i25 IO14 
+pin+hm2_5i25.0.gpio.014.in
+
+#Gecko input 3/pin 3; DB 25 pin 12; 6i25 IO15
+pin+hm2_5i25.0.gpio.015.in
+
+#Gecko input 4/pin 4; DB 25 pin 13; 6i25 IO16
+pin+hm2_5i25.0.gpio.016.in
+
+#Gecko FAULT input pin 10; DB 25 pin 15; 6i25 IO03
+pin+hm2_5i25.0.gpio.016.in
+
+
+#Gecko Outputs
+#-------------
+#Gecko output 1, pin 5; DB 25 pin 17; 6i25 IO07 
+#0:high impedance/open, 1:~10ohms 
+pin+hm2_5i25.0.gpio.007.in
+param+hm2_5i25.0.gpio.007.is_output
+
+#Gecko output 2, pin 6; DB 25 pin 1;  6i25 IO0
+#0:high impedance/open, 1:~10ohms 
+pin+hm2_5i25.0.gpio.000.in
+param+hm2_5i25.0.gpio.000.is_output
+
+
+#7I75 breakout;
+#--------------
+#Includes dedicated inputs and 4 general purpose I/O
+
+#7i75 IO0, 6i25 I017
+pin+hm2_5i25.0.gpio.017.in
+param+hm2_5i25.0.gpio.017.is_output
+param+hm2_5i25.0.gpio.017.is_opendrain
+
+#7i75 IO3, 6i25 I020; I/0 0:0 1:4.6V
+pin+hm2_5i25.0.gpio.020.in
+param+hm2_5i25.0.gpio.020.is_output
+param+hm2_5i25.0.gpio.020.is_opendrain
+
+#7i75 IO7, 6i25 I024; I/0 0:0 1:4.6V
+pin+hm2_5i25.0.gpio.024.in
+param+hm2_5i25.0.gpio.024.is_output
+param+hm2_5i25.0.gpio.024.is_opendrain
+
+#7i75 I13, 6i25 I030
+pin+hm2_5i25.0.gpio.030.in
+
+#7i75 I14, 6i25 I031
+pin+hm2_5i25.0.gpio.031.in
+
+#7i75 I15, 6i25 I032
+pin+hm2_5i25.0.gpio.032.in
+
+#7i75 I16, 6i25 I033; I/0 0:0 1:4.6V
+#pin+hm2_5i25.0.gpio.033.in
+pin+hm2_5i25.0.gpio.033.out
+param+hm2_5i25.0.gpio.033.is_output
+param+hm2_5i25.0.gpio.033.is_opendrain
+
+
+#HAL pins
+#----------
+pin+halui.estop.activate
+pin+halui.estop.is-activated
+pin+halui.machine.is-on
+pin+halui.machine.on
+
+pin+joint.0.neg-lim-sw-in
+pin+joint.0.pos-lim-sw-in
+pin+joint.1.neg-lim-sw-in
+pin+joint.2.neg-lim-sw-in
+pin+joint.3.neg-lim-sw-in
+pin+joint.3.pos-lim-sw-in
+
+pin+joint.0.home-sw-in
+pin+joint.1.home-sw-in
+pin+joint.2.home-sw-in
+pin+joint.3.home-sw-in
+
+pin+halui.axis.jog-speed
+pin+halui.axis.jog-deadband
+pin+halui.axis.x.analog
+pin+halui.axis.y.analog
+pin+halui.axis.z.analog
+
+#Estop
+sig+remote-estop
+pin+debounce.0.0.out
+
+#Gamepad
+#-------
+pin+input.0.abs-x-position  #left stick left/right
+pin+input.0.abs-y-position  #left stick up/down
+pin+input.0.abs-ry-position #right stick up/down
+pin+input.0.abs-rz-position #RT button
+pin+input.0.abs-hat0x-position #dpad left/right
+pin+input.0.abs-hat0y-position #dpad up/down
+
+pin+gamepad.0.isestop
+pin+gamepad.0.estop.activate
+pin+gamepad.0.stop
+pin+gamepad.0.homeall
+pin+gamepad.0.dohomeall
+pin+gamepad.0.count
+pin+gamepad.0.countdown
+pin+gamepad.0.countup
+#pin+gamepad.0.jogxval
+pin+gamepad.0.mytest
+pin+gamepad.0.jog.watchdog
+pin+gamepad.0.jog.watchdog.enable
+  
+pin+gamepad.0.maxvel
+pin+gamepad.0.mode.manual
+
+
+pin+watchdog.enable-in
+pin+watchdog.input-0
+pin+watchdog.ok-out
+
+
+#Misc
+------
+pin+halui.mode.is-teleop
+pin+halui.mode.is-mdi
+pin+halui.mode.is-manual
+pin+halui.mode.is-joint
+pin+motion.spindle-on
+
+pin+motion.digital-out-00
+pin+motion.digital-out-01
+pin+motion.analog-out-00
+pin+motion.analog-out-01
+pin+motion.analog-in-00
+pin+motion.analog-in-01
+
+pin+timeprobesafe.elapsed
+pin+timeprobesafe.in
+pin+timeprobesafe.out
+

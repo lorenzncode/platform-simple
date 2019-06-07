@@ -1,0 +1,54 @@
+T1 P1 D0.0625 ;0.0625 End mill
+T2 P2 D0.125 ;0.125 End mill
+T3 P3 D0.25 ;0.25 End mill
+T4 P4 D0.375 ;0.375 End mill
+T5 P5 D0.5 ;0.5 End mill
+T6 P6 D0.0625 ;0.0625 Ball nose
+T7 P7 D0.125 ;0.125 Ball nose
+T8 P8 D0.25 ;0.25 Ball nose
+T9 P9 D0.375 ;0.375 Ball nose
+T10 P10 D0.5 ;0.5 Ball nose
+T11 P11 D2 ;2 End mill
+T12 P12 D0.25 ;0.25 90deg V-cutter
+T13 P13 D0.5 ;0.5 90deg V-cutter
+T14 P14 D0.25 ;0.25 60deg V-cutter
+T15 P15 D0.5 ;0.5 60deg V-cutter
+T112 P112 D0.12 ;d=0.12" at target depth (chamfer) 90deg V-cutter
+T113 P113 D0.13 ;d=0.13" at target depth (chamfer) 90deg V-cutter
+T114 P114 D0.14 ;d=0.14" at target depth (chamfer) 90deg V-cutter
+T115 P115 D0.15 ;d=0.15" at target depth (chamfer) 90deg V-cutter
+T116 P116 D0.16 ;d=0.16" at target depth (chamfer) 90deg V-cutter
+T117 P117 D0.17 ;d=0.17" at target depth (chamfer) 90deg V-cutter
+T118 P118 D0.18 ;d=0.18" at target depth (chamfer) 90deg V-cutter
+T119 P119 D0.19 ;d=0.19" at target depth (chamfer) 90deg V-cutter
+T120 P120 D0.2 ;d=0.2" at target depth (chamfer) 90deg V-cutter
+T121 P121 D0.21 ;d=0.21" at target depth (chamfer) 90deg V-cutter
+T122 P122 D0.22 ;d=0.22" at target depth (chamfer) 90deg V-cutter
+T123 P123 D0.23 ;d=0.23" at target depth (chamfer) 90deg V-cutter
+T124 P124 D0.24 ;d=0.24" at target depth (chamfer) 90deg V-cutter
+T125 P125 D0.25 ;d=0.25" at target depth (chamfer) 90deg V-cutter
+T126 P126 D0.26 ;d=0.26" at target depth (chamfer) 90deg V-cutter
+T127 P127 D0.27 ;d=0.27" at target depth (chamfer) 90deg V-cutter
+T128 P128 D0.28 ;d=0.28" at target depth (chamfer) 90deg V-cutter
+T129 P129 D0.29 ;d=0.29" at target depth (chamfer) 90deg V-cutter
+T130 P130 D0.3 ;d=0.3" at target depth (chamfer) 90deg V-cutter
+T131 P131 D0.31 ;d=0.31" at target depth (chamfer) 90deg V-cutter
+T132 P132 D0.32 ;d=0.32" at target depth (chamfer) 90deg V-cutter
+T133 P133 D0.33 ;d=0.33" at target depth (chamfer) 90deg V-cutter
+T134 P134 D0.34 ;d=0.34" at target depth (chamfer) 90deg V-cutter
+T135 P135 D0.35 ;d=0.35" at target depth (chamfer) 90deg V-cutter
+T136 P136 D0.36 ;d=0.36" at target depth (chamfer) 90deg V-cutter
+T137 P137 D0.37 ;d=0.37" at target depth (chamfer) 90deg V-cutter
+T138 P138 D0.38 ;d=0.38" at target depth (chamfer) 90deg V-cutter
+T139 P139 D0.39 ;d=0.39" at target depth (chamfer) 90deg V-cutter
+T140 P140 D0.4 ;d=0.4" at target depth (chamfer) 90deg V-cutter
+T141 P141 D0.41 ;d=0.41" at target depth (chamfer) 90deg V-cutter
+T142 P142 D0.42 ;d=0.42" at target depth (chamfer) 90deg V-cutter
+T143 P143 D0.43 ;d=0.43" at target depth (chamfer) 90deg V-cutter
+T144 P144 D0.44 ;d=0.44" at target depth (chamfer) 90deg V-cutter
+T145 P145 D0.45 ;d=0.45" at target depth (chamfer) 90deg V-cutter
+T146 P146 D0.46 ;d=0.46" at target depth (chamfer) 90deg V-cutter
+T147 P147 D0.47 ;d=0.47" at target depth (chamfer) 90deg V-cutter
+T148 P148 D0.48 ;d=0.48" at target depth (chamfer) 90deg V-cutter
+T149 P149 D0.49 ;d=0.49" at target depth (chamfer) 90deg V-cutter
+T150 P150 D0.5 ;d=0.5" at target depth (chamfer) 90deg V-cutter

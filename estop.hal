@@ -1,0 +1,23 @@
+# estop
+
+addf estop-latch.0 servo-thread
+addf and2.0 servo-thread
+addf debounce.0 servo-thread
+
+# First debounce physical estop button
+setp debounce.0.delay 50
+
+net estop-button hm2_5i25.0.gpio.003.in and2.0.in0 
+net machine-is-on and2.0.in1
+net estop-remote-out and2.0.out debounce.0.0.in
+
+net estop-input estop-latch.0.fault-in debounce.0.0.out
+
+#reset signal - UI 
+net estop-reset-iocontrol iocontrol.0.user-request-enable halui.estop.reset
+
+# Connect to estop_latch
+net estop-loopout iocontrol.0.emc-enable-in <= estop-latch.0.ok-out
+net estop-loopin iocontrol.0.user-enable-out => estop-latch.0.ok-in
+net estop-reset-iocontrol estop-latch.0.reset
+
